@@ -137,8 +137,8 @@ Cool, we are at `google.com` - what do you want to tell the bot to do next? Let'
 
 ### Partner Google 
 
-**Partner with longer hair:** You are the note taker. Keep track of each button click you partner makes, each thing they type, etc. 
-**Partner with shorter hair:** If you start at `google.com` and you want to find "hedghog halloween" images, what would you do? Go through those steps (slowly so your partner can take note). Make sure you tell your partner each little thing you do. 
+* **Partner with longer hair:** You are the note taker. Keep track of each button click you partner makes, each thing they type, etc. 
+* **Partner with shorter hair:** If you start at `google.com` and you want to find "hedghog halloween" images, what would you do? Go through those steps (slowly so your partner can take note). Make sure you tell your partner each little thing you do. 
 
 We will discuss this as a group once everyone has had time to complete this activity. 
 
