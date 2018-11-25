@@ -48,7 +48,7 @@ let's follow a similar pattern as we saw above. Add the following code in (make 
 
 ```js
 app.get('/pets', (req, res) => {
-  res.send("insert a sentence about your favorite pet here!")
+  res.send("insert a sentence about your favorite pet here!");
 });
 ```
 
@@ -58,7 +58,9 @@ Let's take it one step farther - we are going to give the endpoint information a
 
 ```js
 app.get('/:name', (req, res) => {
-  res.send(`Hi, ${name}!`)
+  var name = req.params.name;
+  
+  res.send(`Hi, ${name}!`);
 });
 ```
 
