@@ -32,3 +32,34 @@
 ```
 - Open a new window in the broswer. Go to `http://localhost:3000/`. You should see a very small "Hedgehog Time" in the top left corner of the screen. You are ready to go!
 - Keep your terminal open at all times!
+
+## Write Your First Endpoint 
+
+What is an endpoint?
+> explain 
+
+As you can see, we already have one endpoint written on lines 12-14. It is very simple - it says that when we visit the root of the page, we will see "Hedgehog Time". Try changing the words inside the quotes to something else. Now, refresh the page in the broswer and you should see the words you typed in!
+
+Let's write an endpoint of our own to get a little more practice. Starting on line 17, below the comment that says:
+```js
+// your endpoint
+```
+let's follow a similar pattern as we saw above. Add the following code in (make the sentence your own!):
+
+```js
+app.get('/pets', (req, res) => {
+  res.send("insert a sentence about your favorite pet here!")
+});
+```
+
+Now, refresh the browser. Nothing has changed, has it? Well, out endpoint has. In the url bar, we actually need to visit `http://localhost:3000/pets`. Now do you see your sentence? If you don't, please let an instructor know and we will help you out. 
+
+Let's take it one step farther - we are going to give the endpoint information and expect it to be "smart". Below your pets endpoint, let's add another:
+
+```js
+app.get('/:name', (req, res) => {
+  res.send(`Hi, ${name}!`)
+});
+```
+
+Now, go back to the browser and visit `http://localhost:3000/<your name>` - mine would look like: `http://localhost:3000/amy`. What happens? Talk with your partner and try to figure out why this may be happening. It's ok if you aren't sure, we will discuss it as a group. 
