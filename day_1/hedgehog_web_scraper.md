@@ -3,7 +3,7 @@
 ## Set Up
 
 ### Front End
-- Go to [this link](https://github.com/<your username>/hedgehog-fe)
+- Go to [this link](https://github.com/ameseee/hedgehog-fe)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
 - In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
 - Now, go into your terminal. Type `git clone `  and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-fe.git`. Press enter.
