@@ -3,7 +3,7 @@
 ## Day 1
 - Intros, Intro to Workshop, Teambuilder (30 mins)
 - What is Web Scraping? (30 mins)
-- Intro to JavaScript (1 hour)
+- Intro to JavaScript & DevTools (1 hour)
 - Build Hedgehog Web Scraper
   * Endpoint (30 mins)
   * Scraper (should be functional at end of this step) (1 hour)
