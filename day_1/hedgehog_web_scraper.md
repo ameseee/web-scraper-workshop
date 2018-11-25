@@ -33,6 +33,21 @@
 - Open a new window in the broswer. Go to `http://localhost:3000/`. You should see a very small "Hedgehog Time" in the top left corner of the screen. You are ready to go!
 - Keep your terminal open at all times!
 
+## Dev Tools Warm Up 
+
+Go to the tab in your browser where you can see the hedghogs with a purple background. 
+
+Open your developer tools (right click, click inspect). You can click the three-dot icon in the top right corner to rearrange where the dev tools appear on your screen. 
+
+Click the little arrow in the top left corner of the dev tools. Now, hover over the title of the app. Do you notice how different parts of the page highlight as you move the mouse over them? If you click on the title of the page, you will see the HTML that created it, in the elements panel!
+
+Work with your partner to answer the following questions. This activity will help you use the dev tools so that you can scrape later today! 
+- What HTML element is the title in? 
+- What is the "id" of the hedgehog that has marshmellows in his spikes?
+- What is the "src" of the hedgehog that is cudding in front of the ocean?
+- What is the "id" of the input where users type in their keyword?
+- What is the "type" of the input/button where users click to get hedgie photos?
+
 ## Write Your First Endpoint 
 
 What is an endpoint?
