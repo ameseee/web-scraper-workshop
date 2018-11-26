@@ -159,3 +159,43 @@ Go back to your browser. If the developer tools are not yet open, open them. Mak
 ```
 
 How did we insert? The first thing we told this method is **where** to insert something. Second, we told it **what** to insert. In this case, we know we always want to search for hedgehogs, but the second word will vary. Our variable `keyword` helps us out here!
+
+Now, we need to click the "Google Search" button. Use your dev tools to find that input value. Then, look at the code below and see if you were right!
+
+```js
+  function findHedgieImage(keyword) {
+    var nightmare = Nightmare();
+
+    return nightmare
+      .goto('https://www.google.com')
+      .insert('input[title="Search"]', `hedgehog ${keyword}`)
+      .click('input[value="Google Search"]')
+  }
+```
+
+Now that we have typed in our text and clicked the button, we need to tell the bot to wait until the next page loads before it tries to do something else. Under your `.click` method, add in the following line of code:
+
+```js
+  .wait('a.q.qs')
+```
+
+This line is saying "wait until you see an `a` tag with the classes `q` and `qs` (which is the "Images" button) until you do the next thing, please".
+
+Now that it's there, let's click on it:
+
+```js
+  .click('a.q.qs')
+```
+
+Now, we need to find a `<div>` with the classes of `res` and `med`. It is the `div` that is outside of all the search results (below ads, if there are any). Go to google.com, type in a search term, click search, then on the page you are brought to, and look for this `<div>` using your Dev Tools. After clicking 'a.q.qs', we want to make sure this `<div>` exists. After your `.click` method, we need to wait on 'div#res.med'. Update your code:
+
+```js
+ return nightmare
+      .goto('https://www.google.com')
+      .insert('input[title="Search"]', `hedgehog ${keyword}`)
+      .click('input[value="Google Search"]')
+      .wait('a.q.qs')
+      .click('a.q.qs')
+      .wait('div#res.med')
+```
+
