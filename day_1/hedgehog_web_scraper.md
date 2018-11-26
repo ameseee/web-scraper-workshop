@@ -11,6 +11,8 @@
 - Type `open index.html`
 - Your browser will open to a page that looks something like this:
 ![inline](../assets/start_view_screenshot.png)
+- Back in your GitHub Repo, click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch". Then, click "Save".
+- You should now see a green section above that dropdown that says something like, "✅ Your site is published at https://ameseee.github.io/hedgehog-fe/". Open that link in another tab. It takes a while to load, but it can work on that while we work on other things. We will come back to it later today.
 - Keep your terminal open at all times!
 
 ### Web Scraper
