@@ -14,7 +14,7 @@
 - Keep your terminal open at all times!
 
 ### Web Scraper
-- Go to [this link](https://github.com/<your username>/hedgehog-scraper)
+- Go to [this link](https://github.com/ameseee/hedgehog-scraper)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
 - In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
 - Back in your terminal, type "control", "alt", and "t" at the same time. A new window should open.
