@@ -296,3 +296,11 @@ app.get('/hedgie/:keyword', (req, res) => {
 ```
 
 It's official, we should have hedgehogs. In your browser, visit `http://localhost:3000/hedgie/<insert a word>`. You should see another little browser pop up - your bot is working away! Once it is done, you should see a list of 4 URLs to photos of hedgehogs with your keyword. Not actual photos _yet_, but soon we will see it all come together.
+
+## The Final Step - Connect to our Front End
+
+Go back to the tab in your browser that looks something like: `https://<your username>.github.io/hedgehog-fe/`. Type in a celebration, and see what happens. 
+
+At this point, you should see the little browser come up, the bot do it's thing, then the images show up in your browser. If that didn't work out, go back to the browser tab that you originally opened by typing `open index.html` in your terminal - it looks something like: `file:///Users/<username>/personal_projects/hedgehog-fe/index.html`. Try the same thing. Does the little browser open up? Do new images come up a few seconds later? 
+
+If you still don't have new images oh hedgehogs, find an instructor and we will help you hunt down the problem. You are so close!
