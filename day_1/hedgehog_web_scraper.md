@@ -6,30 +6,34 @@
 - Go to [this link](https://github.com/ameseee/hedgehog-fe)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
 - In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
-- Now, go into your terminal. Type `git clone `  and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-fe.git`. Press enter.
+- Now, go into your command prompt. Type `git clone `  and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-fe.git`. Press enter.
 - Type `cd hedgehog-fe`
 - Type `start index.html`
 - Your browser will open to a page that looks something like this:
 ![inline](../assets/start_view_screenshot.png)
 - Back in your GitHub Repo, click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch". Then, click "Save".
 - You should now see a green section above that dropdown that says something like, "✅ Your site is published at https://ameseee.github.io/hedgehog-fe/". Open that link in another tab. It takes a while to load, but it can work on that while we work on other things. We will come back to it later today.
-- Keep your terminal open at all times!
+- Keep your command prompt open at all times!
 
 ### Web Scraper
 - Go to [this link](https://github.com/ameseee/hedgehog-scraper)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
 - In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
-- ⁉️Back in your terminal, open a new tab. Directions on changing into correct (parent) directory.
-- Now, go into your terminal. Type `git clone ` and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-scraper.git`. Press enter.
+- Open a new command prompt by starting to type in "command prompt" into the bottom left search bar of your screen, then press "enter".
+- In the new command prompt, type `git clone ` and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-scraper.git`. Press enter.
 - Type `cd hedgehog-scraper`
 - Type `npm install`
 - Type `node server.js`
-- You should see something like this in your terminal:
+- You should see something like this in your command prompt:
 ```bash
   app running on 3000
 ```
 - Open a new window in the browser. Go to `http://localhost:3000/`. You should see a very small "Hedgehog Time" in the top left corner of the screen. You are ready to go!
-- Keep your terminal open at all times!
+- Keep your command prompt open at all times!
+
+## See The Finished Product
+
+Let's take a quick break from our computers to see the final product!
 
 ## Dev Tools Warm Up
 
