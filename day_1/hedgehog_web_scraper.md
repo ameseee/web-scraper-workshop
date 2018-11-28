@@ -8,7 +8,7 @@
 - In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
 - Now, go into your terminal. Type `git clone `  and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-fe.git`. Press enter.
 - Type `cd hedgehog-fe`
-- Type `open index.html`
+- Type `start index.html`
 - Your browser will open to a page that looks something like this:
 ![inline](../assets/start_view_screenshot.png)
 - Back in your GitHub Repo, click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch". Then, click "Save".
@@ -19,17 +19,13 @@
 - Go to [this link](https://github.com/ameseee/hedgehog-scraper)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
 - In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
-- Back in your terminal, type "control", "alt", and "t" at the same time. A new window should open.
-- Type `cd ..`. In this new window, follow this next set of directions.
+- ⁉️Back in your terminal, open a new tab. Directions on changing into correct (parent) directory.
 - Now, go into your terminal. Type `git clone ` and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-scraper.git`. Press enter.
 - Type `cd hedgehog-scraper`
 - Type `npm install`
-- Type `npm start`
+- Type `node server.js`
 - You should see something like this in your terminal:
 ```bash
-  > a-hedgie-scraper@1.0.0 start /Users/amyholt/personal_projects/a-hedgie-scraper
-  > node server.js
-
   app running on 3000
 ```
 - Open a new window in the browser. Go to `http://localhost:3000/`. You should see a very small "Hedgehog Time" in the top left corner of the screen. You are ready to go!
@@ -39,7 +35,7 @@
 
 Go to the tab in your browser where you can see the hedgehogs with a purple background.
 
-Open your developer tools (right click, click inspect). You can click the three-dot icon in the top right corner to rearrange where the dev tools appear on your screen.
+Open your developer tools (right click, click inspect OR control+shift+i). You can click the three-dot icon in the top right corner to rearrange where the dev tools appear on your screen.
 
 Click the little arrow in the top left corner of the dev tools. Now, hover over the title of the app. Do you notice how different parts of the page highlight as you move the mouse over them? If you click on the title of the page, you will see the HTML that created it, in the elements panel!
 
@@ -53,7 +49,7 @@ Work with your partner to answer the following questions. This activity will hel
 ## Write Your First Endpoint
 
 What is an endpoint?
-> explain
+> ⁉️explain
 
 As you can see, we already have one endpoint written on lines 12-14. It is very simple - it says that when we visit the root of the page, we will see "Hedgehog Time". Try changing the words inside the quotes to something else. Now, refresh the page in the browser and you should see the words you typed in!
 
@@ -61,7 +57,7 @@ Let's write an endpoint of our own to get a little more practice. Starting on li
 ```js
 // your endpoint
 ```
-let's follow a similar pattern as we saw above. Add the following code in (make the sentence your own!):
+let's follow a similar pattern as we saw above. Add the following code in (but make the sentence your own!):
 
 ```js
 app.get('/pets', (req, res) => {
@@ -168,7 +164,7 @@ Now, we need to click the "Google Search" button. Use your dev tools to find tha
 
 ```js
   function findHedgieImage(keyword) {
-    var nightmare = Nightmare();
+    var nightmare = Nightmare({ show: true });
 
     return nightmare
       .goto('https://www.google.com')
@@ -304,3 +300,11 @@ Go back to the tab in your browser that looks something like: `https://<your use
 At this point, you should see the little browser come up, the bot do it's thing, then the images show up in your browser. If that didn't work out, go back to the browser tab that you originally opened by typing `open index.html` in your terminal - it looks something like: `file:///Users/<username>/personal_projects/hedgehog-fe/index.html`. Try the same thing. Does the little browser open up? Do new images come up a few seconds later? 
 
 If you still don't have new images oh hedgehogs, find an instructor and we will help you hunt down the problem. You are so close!
+
+Now that we are done, we don't need that little browser to pop up and show what the bot is doing every time. In your scraper endpoint, you currently have a line of code that looks like:
+
+```js
+    var nightmare = Nightmare({ show: true });
+```
+
+Let's remove the `{ show: true }` so we just have `var nightmare = Nightmare()`. Run the program in your browser again to make sure it is still working as you want it to. 
