@@ -25,3 +25,11 @@
 
 3:00 - 4:00 
 - Final touches on Personal Web Scraper and ChickTech Portfolio
+
+### Notes for Instructors:
+
+This workshops is written for students who will be using PCs. They will need the following downloaded on their machines:
+- Node
+- Atom 
+- Git
+- GitHub Desktop
