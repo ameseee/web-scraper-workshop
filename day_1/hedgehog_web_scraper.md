@@ -4,24 +4,27 @@
 
 ### Front End
 - Go to [this link](https://github.com/ameseee/hedgehog-fe)
-- Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
+- Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account. Once it's done, you should see a page with "your-username/hedgehog-fe" in the rop left corner. 
 - Click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch". Then, click "Save".
-- In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
-- Now, go into your command prompt. Type `git clone `  and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-fe.git`. Press enter.
-- Type `cd hedgehog-fe`
+- You should now see a blue section above that dropdown that says something like, "✅ Your site is published at https://ameseee.github.io/hedgehog-fe/". Open that link in another tab. It takes a while to load, but it can work on that while we work on other things. We will come back to it later today.
+- Open up GitHub Desktop (by typing in "GitHub" into the computer's search bar on the bottom left, then clicking on "GitHub Desktop").
+- In GitHub Desktop, click "Current Repository" in the top left. The click the small "Add" dropdown. Select "Clone repository..."
+- A list of all your repositories attached to your GitHub account will appear. Click on "hedgehog-fe", then click the blue "Clone" button. This is create a copy of that project on your computer. 
+- In GitHub Desktop, you'll see hedgehog-fe on the left. Double-click it to enter the project.
+- Now, open the Command Prompt program. To navigate to the folder where our project is, type `cd Documents/GitHub/hedgehog-fe`
 - Type `start index.html`
 - Your browser will open to a page that looks something like this:
 ![inline](../assets/start_view_screenshot.png)
-- You should now see a green section above that dropdown that says something like, "✅ Your site is published at https://ameseee.github.io/hedgehog-fe/". Open that link in another tab. It takes a while to load, but it can work on that while we work on other things. We will come back to it later today.
 - Keep your command prompt open at all times!
 
 ### Web Scraper
 - Go to [this link](https://github.com/ameseee/hedgehog-scraper)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
-- In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
+- In GitHub Desktop, click "Current Repository" in the top left. The click the small "Add" dropdown. Select "Clone repository..."
+- A list of all your repositories attached to your GitHub account will appear. Click on "hedgehog-scraper", then click the blue "Clone" button. This is create a copy of that project on your computer. 
+- In GitHub Desktop, you'll see hedgehog-scraper on the left. Double-click it to enter the project.
 - Open a new command prompt by starting to type in "command prompt" into the bottom left search bar of your screen, then press "enter".
-- In the new command prompt, type `git clone ` and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-scraper.git`. Press enter.
-- Type `cd hedgehog-scraper`
+- Type `cd Documents/GitHub/hedgehog-scraper`
 - Type `npm install`
 - Type `node server.js`
 - You should see something like this in your command prompt:
@@ -53,9 +56,9 @@ Work with your partner to answer the following questions. This activity will hel
 ## Write Your First Endpoint
 
 What is an endpoint?
-> ⁉️explain
+> An endpoint is a location where specific information can be accessed. It is set up in the back end of an application. 
 
-As you can see, we already have one endpoint written on lines 12-14. It is very simple - it says that when we visit the root of the page, we will see "Hedgehog Time". Try changing the words inside the quotes to something else. Now, refresh the page in the browser and you should see the words you typed in!
+As you can see, we already have one endpoint written on lines 12-14. It is very simple - it says that when we visit the root of the page in the browser, we will see "Hedgehog Time". Try changing the words inside the quotes to something else. Now, refresh the page in the browser and you should see the words you typed in!
 
 Let's write an endpoint of our own to get a little more practice. Starting on line 17, below the comment that says:
 ```js
