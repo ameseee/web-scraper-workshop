@@ -4,59 +4,45 @@
 
 ### Front End
 - Go to [this link](https://github.com/ameseee/hedgehog-fe)
-- Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account. Once it's done, you should see a page with "your-username/hedgehog-fe" in the rop left corner. 
-- Click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch". Then, click "Save".
-- You should now see a blue section above that dropdown that says something like, "✅ Your site is published at https://ameseee.github.io/hedgehog-fe/". Open that link in another tab. It takes a while to load, but it can work on that while we work on other things. We will come back to it later today.
+- Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account. Once it's done, you should see a page with "your-username/hedgehog-fe" in the top left corner.
+- Click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch" (the first one). Then, click "Save".
+- Scroll back down to the GitHub Pages section. You should now see a blue section above that dropdown that says something like, "✅ Your site is published at https://ameseee.github.io/hedgehog-fe/". Open that link in another tab. It may take a while to load, but it can work on that while we work on other things. We will come back to it later today - this is our production version of the app, and will not change as we go. Click and drag that tab, it will go into it's own window. Minimize that window. This will help us not get confused between our development version and production version.
 - Open up GitHub Desktop (by typing in "GitHub" into the computer's search bar on the bottom left, then clicking on "GitHub Desktop").
-- In GitHub Desktop, click "Current Repository" in the top left. The click the small "Add" dropdown. Select "Clone repository..."
-- A list of all your repositories attached to your GitHub account will appear. Click on "hedgehog-fe", then click the blue "Clone" button. This is create a copy of that project on your computer. 
+- Click the button on the right side of the page that says "Clone a Repository".
+- A list of all your repositories attached to your GitHub account will appear. Click on "hedgehog-fe", then click the blue "Clone" button. This will create a copy of that project on your computer.
 - In GitHub Desktop, you'll see hedgehog-fe on the left. Double-click it to enter the project.
-- Now, open the Command Prompt program. To navigate to the folder where our project is, type `cd Documents/GitHub/hedgehog-fe`
-- Type `start index.html`
+- Now, open the Command Prompt program (by typing in "Command" into the computer's search bar on the bottom left, then clicking on "Command Prompt"). To navigate to the folder where our project is, type `cd Documents/GitHub/hedgehog-fe`. Press enter.
+- Type `start index.html`. Press enter. This will create a development version of our app, where we can see each change as we go.
 - Your browser will open to a page that looks something like this:
 ![inline](../assets/start_view_screenshot.png)
-- Keep your command prompt open at all times!
+- Close the command prompt.
 
 ### Web Scraper
 - Go to [this link](https://github.com/ameseee/hedgehog-scraper)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
 - In GitHub Desktop, click "Current Repository" in the top left. The click the small "Add" dropdown. Select "Clone repository..."
-- A list of all your repositories attached to your GitHub account will appear. Click on "hedgehog-scraper", then click the blue "Clone" button. This is create a copy of that project on your computer. 
-- In GitHub Desktop, you'll see hedgehog-scraper on the left. Double-click it to enter the project.
+- A list of all your repositories attached to your GitHub account will appear. Click on "hedgehog-scraper", then click the blue "Clone" button. This will create a copy of that project on your computer.
+- In GitHub Desktop, you'll see hedgehog-scraper in a list on the left. Double-click it to enter the project.
+- Select "Repositories", the select "Open in Atom".
 - Open a new command prompt by starting to type in "command prompt" into the bottom left search bar of your screen, then press "enter".
-- Type `cd Documents/GitHub/hedgehog-scraper`
-- Type `npm install`
-- Type `node server.js`
+- Type `cd Documents/GitHub/hedgehog-scraper`. Press enter.
+- Type `npm install`. Press enter.
+- Type `node server.js`. Press enter.
 - You should see something like this in your command prompt:
 ```bash
   app running on 3000
 ```
-- Open a new window in the browser. Go to `http://localhost:3000/`. You should see a very small "Hedgehog Time" in the top left corner of the screen. You are ready to go!
+- Open a new tab in the browser. Go to `http://localhost:3000/`. You should see a very small "Hedgehog Time" in the top left corner of the screen. It may take some time to load. You are ready to go!
 - Keep your command prompt open at all times!
 
 ## See The Finished Product
 
 Let's take a quick break from our computers to see the final product!
 
-## Dev Tools Warm Up
-
-Go to the tab in your browser where you can see the hedgehogs with a purple background.
-
-Open your developer tools (right click, click inspect OR control+shift+i). You can click the three-dot icon in the top right corner to rearrange where the dev tools appear on your screen.
-
-Click the little arrow in the top left corner of the dev tools. Now, hover over the title of the app. Do you notice how different parts of the page highlight as you move the mouse over them? If you click on the title of the page, you will see the HTML that created it, in the elements panel!
-
-Work with your partner to answer the following questions. This activity will help you use the dev tools so that you can scrape later today!
-- What HTML element is the title in?
-- What is the "id" of the hedgehog that has marshmallows in his spikes?
-- What is the "src" of the hedgehog that is cuddling in front of the ocean?
-- What is the "id" of the input where users type in their keyword?
-- What is the "type" of the input/button where users click to get hedgie photos?
-
 ## Write Your First Endpoint
 
 What is an endpoint?
-> An endpoint is a location where specific information can be accessed. It is set up in the back end of an application. 
+> An endpoint is a location where specific information can be accessed. It is set up in the back end of an application.
 
 As you can see, we already have one endpoint written on lines 12-14. It is very simple - it says that when we visit the root of the page in the browser, we will see "Hedgehog Time". Try changing the words inside the quotes to something else. Now, refresh the page in the browser and you should see the words you typed in!
 
@@ -302,9 +288,9 @@ It's official, we should have hedgehogs. In your browser, visit `http://localhos
 
 ## The Final Step - Connect to our Front End
 
-Go back to the tab in your browser that looks something like: `https://<your username>.github.io/hedgehog-fe/`. Type in a celebration, and see what happens. 
+Go back to the tab in your browser that looks something like: `https://<your username>.github.io/hedgehog-fe/`. Type in a celebration, and see what happens.
 
-At this point, you should see the little browser come up, the bot do it's thing, then the images show up in your browser. If that didn't work out, go back to the browser tab that you originally opened by typing `open index.html` in your terminal - it looks something like: `file:///Users/<username>/personal_projects/hedgehog-fe/index.html`. Try the same thing. Does the little browser open up? Do new images come up a few seconds later? 
+At this point, you should see the little browser come up, the bot do it's thing, then the images show up in your browser. If that didn't work out, go back to the browser tab that you originally opened by typing `open index.html` in your terminal - it looks something like: `file:///Users/<username>/personal_projects/hedgehog-fe/index.html`. Try the same thing. Does the little browser open up? Do new images come up a few seconds later?
 
 If you still don't have new images oh hedgehogs, find an instructor and we will help you hunt down the problem. You are so close!
 
@@ -314,4 +300,4 @@ Now that we are done, we don't need that little browser to pop up and show what 
     var nightmare = Nightmare({ show: true });
 ```
 
-Let's remove the `{ show: true }` so we just have `var nightmare = Nightmare()`. Run the program in your browser again to make sure it is still working as you want it to. 
+Let's remove the `{ show: true }` so we just have `var nightmare = Nightmare()`. Run the program in your browser again to make sure it is still working as you want it to.
