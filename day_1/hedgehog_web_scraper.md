@@ -5,13 +5,13 @@
 ### Front End
 - Go to [this link](https://github.com/ameseee/hedgehog-fe)
 - Click "Fork" in the top right corner. This will create a copy of the project, but in your GitHub account.
+- Click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch". Then, click "Save".
 - In your project, click the green "Clone or Download" button. Then, click the clipboard icon.
 - Now, go into your command prompt. Type `git clone `  and "control v". You should see something like: `git clone https://github.com/<your username>/hedgehog-fe.git`. Press enter.
 - Type `cd hedgehog-fe`
 - Type `start index.html`
 - Your browser will open to a page that looks something like this:
 ![inline](../assets/start_view_screenshot.png)
-- Back in your GitHub Repo, click the "Settings" button. Scroll down until you see "GitHub Pages". In the dropdown menu that currently says "None", select "Master Branch". Then, click "Save".
 - You should now see a green section above that dropdown that says something like, "✅ Your site is published at https://ameseee.github.io/hedgehog-fe/". Open that link in another tab. It takes a while to load, but it can work on that while we work on other things. We will come back to it later today.
 - Keep your command prompt open at all times!
 
