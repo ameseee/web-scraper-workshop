@@ -5,14 +5,11 @@
 - Intros, Intro to Workshop (15 mins)
 - Git and GitHub (45 mins)
 - [What is Web Scraping?](./day_1/what_is_web_scraping.md) (15 mins)
-- Survey (15 mins)
+- [Survey](https://docs.google.com/document/d/1gBpBanXQdjmwaI6jUVHbAoDs8RJ_Oc0cRQlvsH9uwQU/edit) (15 mins)
 
 1:30 - 4:00
 - [Intro to Today's Tools](./day_1/intro_to_todays_tools.md) (1 hour)
 - [Build Hedgehog Web Scraper](./day_1/hedgehog_web_scraper.md)
-  * Endpoint (30 mins)
-  * Scraper (should be functional at end of this step) (1 hour)
-  * Personalize FE if desired (1 hour)
 
 4:00 - 5:00
 - ChickTech Portfolio 
