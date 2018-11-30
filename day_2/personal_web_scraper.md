@@ -13,5 +13,9 @@
 
 ## Scraper
 - Build out endpoint with web scraper 
-- Go into front end and modify as needed. HTML and CSS files have some notes to help you out. 
-- In the JavaScript file, you will need to update the endpoint location based on how you wrote the endpoint in your personal-scraper repo.
+
+## Front End 
+- In the `index.html` file, you can change anything you need to. If you are following a similar format with four images, you just need to change out the starting images (lines 28-31).
+- In the `styles.css` file, you can change the color scheme. You can also use this file to change the layout (if you'd rather have rows for your info than a 2x2 square of images). There is a note about how to do that.
+- In the `index.js` file, you will need to update the endpoint location based on how you wrote the endpoint in your personal-scraper repo - line 19. You might also want to change out the text on the button (line 22).
+
