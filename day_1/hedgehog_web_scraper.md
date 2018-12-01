@@ -44,7 +44,7 @@ Let's take a quick break from our computers to see the final product!
 What is an endpoint?
 > An endpoint is a location where specific information can be accessed. It is set up in the back end of an application.
 
-As you can see, we already have one endpoint written on lines 12-14. It is very simple - it says that when we visit the root of the page in the browser, we will see "Hedgehog Time". Try changing the words inside the quotes to something else. Now, refresh the page in the browser and you should see the words you typed in!
+In `server.js`, we already have one endpoint written on lines 12-14. It is very simple - it says that when we visit the root of the page in the browser, we will see "Hedgehog Time". Try changing the words inside the quotes to something else. Now, refresh the page in the browser and you should see the words you typed in!
 
 Let's write an endpoint of our own to get a little more practice. Starting on line 17, below the comment that says:
 ```js
